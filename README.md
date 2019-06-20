@@ -2,10 +2,10 @@
 
 # Installation
 
-git clone <project-url>
+git clone [project-url]
 
 composer install
 
 copy .env.example to .env file
 
-run php artisan key:generate
+php artisan key:generate
