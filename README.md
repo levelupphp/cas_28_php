@@ -2,10 +2,12 @@
 
 # Installation
 
-git clone [project-url]
+htdocs: git clone [project-url]
 
-composer install
+cas_28_php: composer install
 
 copy .env.example to .env file
 
 php artisan key:generate
+
+php artisan serve
