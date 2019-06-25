@@ -2,18 +2,32 @@
 
 # Installation
 
-Command prompt:
+## Command prompt:
 
-enter htdocs: cd c:\xampp\htdocs
+### enter htdocs
 
-clone project: git clone [project-url]
+cd c:\xampp\htdocs
 
-enter project folder: cd cas_28_php
+### clone project
 
-install vendor libraries: composer install
+git clone [project-url]
 
-create env file: copy .env.example to .env file
+### enter project folder
 
-generate application key: php artisan key:generate
+cd cas_28_php
 
-start server: php artisan serve
+### install vendor libraries
+
+composer install
+
+### create env file
+
+copy .env.example to .env file
+
+### generate application key
+
+php artisan key:generate
+
+### start server
+
+php artisan serve
