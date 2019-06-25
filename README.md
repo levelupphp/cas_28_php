@@ -22,7 +22,7 @@ composer install
 
 ### create env file
 
-copy .env.example to .env file
+copy .env.example to .env file (and change values for database)
 
 ### generate application key
 
