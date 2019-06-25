@@ -4,16 +4,16 @@
 
 Command prompt:
 
-cd c:\xampp\htdocs
+enter htdocs: cd c:\xampp\htdocs
 
-git clone [project-url]
+clone project: git clone [project-url]
 
-cd cas_28_php
+enter project folder: cd cas_28_php
 
-composer install
+install vendor libraries: composer install
 
-copy .env.example to .env file
+create env file: copy .env.example to .env file
 
-php artisan key:generate
+generate application key: php artisan key:generate
 
-php artisan serve
+start server: php artisan serve
