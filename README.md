@@ -2,9 +2,15 @@
 
 # Installation
 
-htdocs: git clone [project-url]
+Command prompt:
 
-cas_28_php: composer install
+cd c:\xampp\htdocs
+
+git clone [project-url]
+
+cd cas_28_php
+
+composer install
 
 copy .env.example to .env file
 
