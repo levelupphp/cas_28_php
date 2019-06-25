@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Post;
 
 class MyController extends Controller
 {
@@ -65,5 +66,13 @@ class MyController extends Controller
                 'proizvod' => $nadjeniProizvod
             ]
         );
+    }
+
+    public function addPost(Request $request)
+    {
+        $post = new Post();
+        $post->title = $request->post_title;
+        $post->content = $request->post_content;
+        $post->save();
     }
 }

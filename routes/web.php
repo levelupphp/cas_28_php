@@ -24,3 +24,9 @@ Route::get('/saberi/{broj1}/{broj2?}', 'MyController@saberi');
 Route::get('/proizvodi/{mode}/{show}', 'MyController@sviProizvodi');
 
 Route::get('/proizvod/{id}', 'MyController@proizvod');
+
+Route::get('/add-post', function() {
+    return  view('add_post');
+});
+
+Route::post('/add-post', 'MyController@addPost');
